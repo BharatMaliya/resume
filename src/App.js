@@ -4,7 +4,7 @@ import ResumeNew from "./component/ResumeNew";
 function App() {
   return (
     <div className="App">
-      <Resume />
+      {/* <Resume /> */}
       <ResumeNew />
     </div>
   );

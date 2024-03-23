@@ -114,13 +114,7 @@ const ResumeNew = () => {
         <div className="l-sec ">
           <h4>About Me</h4>
           <p style={{ textAlign: "justify" }}>
-            As an Aeronautical graduate with 3.5 years of professional
-            experience. I have completed a Crio Fullstack Fellowship to
-            transition into the IT field. Eager to merge engineering expertise
-            with cutting-edge technology, aiming to excel as a Fullstack
-            Developer. Committed to delivering innovative solutions and
-            embracing continuous learning to achieve success in the
-            ever-evolving IT industry.
+            As a Computer Engineering professional with 4.5 years of experience. I am enthusiastic about integrating my technical proficiency with the latest advancements in technology, aspiring to excel as a Fullstack Developer. My commitment to delivering innovative solutions is unwavering, and I thrive on the challenge of continuous learning in the rapidly evolving landscape of the IT industry.
           </p>
         </div>
         <div className="l-sec">
@@ -135,7 +129,7 @@ const ResumeNew = () => {
           <h4>Professional Experience</h4>
           <ul>
             <li className="ex-t">
-              Software Engineer - Front End Developer
+              Software Engineer
               <span className="timing">July 2023 to Present</span>
             </li>
             <p>wTVision Solutions Pvt. Ltd., Noida</p>
@@ -155,7 +149,7 @@ const ResumeNew = () => {
           <ul>
             <li className="ex-t">
               Software Engineer - Front End Developer
-              <span className="timing">Jan 2023 to June 2023</span>
+              <span className="timing">Nov 2019 to June 2023</span>
             </li>
             <p>The coding studio, Surat</p>
             <ul>
@@ -173,7 +167,7 @@ const ResumeNew = () => {
           <ul>
             <li className="ex-t">
               Software Engineer - Trainee
-              <span className="timing">Oct 2022 to Jan 2023</span>
+              <span className="timing">May 2019 to Nov 2019</span>
             </li>
             <p>The coding studio, Surat</p>
             <ul>
@@ -188,36 +182,36 @@ const ResumeNew = () => {
               </li>
             </ul>
           </ul>
-          <ul>
-            <li className="ex-t">
-              Business Development Associate
-              <span className="timing">Mar 2022 to Oct 2022</span>
-            </li>
-            <p>Think and Learn pvt ltd, Anand</p>
-            <ul>
-              <li> Contributed to growth of company by increasing sales.</li>
-            </ul>
-          </ul>
-          <ul>
-            <li className="ex-t">
-              Planning Executive
-              <span className="timing">Sep 2021 to Feb 2022</span>
-            </li>
-            <p>Canpac Trends pvt ltd, Ahmedabad</p>
-            <ul>
-              <li>Planned production from raw material to finished goods.</li>
-            </ul>
-          </ul>
-          <ul>
-            <li className="ex-t">
-              Technical Records Assistant
-              <span className="timing">May 2019 to Jan 2021</span>
-            </li>
-            <p>Flydocs pvt ltd, Vadodara</p>
-            <ul>
-              <li>Maintained flight maintenance records by Digitisation.</li>
-            </ul>
-          </ul>
+          {/*<ul>*/}
+          {/*  <li className="ex-t">*/}
+          {/*    Business Development Associate*/}
+          {/*    <span className="timing">Mar 2022 to Oct 2022</span>*/}
+          {/*  </li>*/}
+          {/*  <p>Think and Learn pvt ltd, Anand</p>*/}
+          {/*  <ul>*/}
+          {/*    <li> Contributed to growth of company by increasing sales.</li>*/}
+          {/*  </ul>*/}
+          {/*</ul>*/}
+          {/*<ul>*/}
+          {/*  <li className="ex-t">*/}
+          {/*    Planning Executive*/}
+          {/*    <span className="timing">Sep 2021 to Feb 2022</span>*/}
+          {/*  </li>*/}
+          {/*  <p>Canpac Trends pvt ltd, Ahmedabad</p>*/}
+          {/*  <ul>*/}
+          {/*    <li>Planned production from raw material to finished goods.</li>*/}
+          {/*  </ul>*/}
+          {/*</ul>*/}
+          {/*<ul>*/}
+          {/*  <li className="ex-t">*/}
+          {/*    Web developer*/}
+          {/*    <span className="timing">May 2019 to Jan 2021</span>*/}
+          {/*  </li>*/}
+          {/*  <p>Flydocs pvt ltd, Vadodara</p>*/}
+          {/*  <ul>*/}
+          {/*    <li>Maintained flight maintenance records by Digitisation.</li>*/}
+          {/*  </ul>*/}
+          {/*</ul>*/}
         </div>
         <div className="pro">
           <h4>Personal Projects</h4>
@@ -242,20 +236,21 @@ const ResumeNew = () => {
               also providing a source of income for household businesses. in
               this project
             </p>
-            <div style={{ height: "70px" }} />
-
+            
             <ul>
               <li>
                 User-Friendly Interface: Designed and implemented an intuitive
                 user interface using React.js and Sass, ensuring a seamless
                 browsing experience for users seeking home-cooked meals.
               </li>
-
+              
               <li>
                 Dynamic Backend: Leveraged Node.js and Express to develop a
                 robust backend that efficiently handled user requests, processed
                 data, and facilitated real-time interactions.
               </li>
+              <div style={{height: "70px"}}/>
+              
               <li>
                 Data Management: Integrated MongoDB as the database solution to
                 store and manage a wide range of food options, user profiles,
@@ -492,6 +487,8 @@ const ResumeNew = () => {
 };
 
 export default ResumeNew;
+
+//testing
 
 <div className="social">
   <div className="about-add">

@@ -1,249 +1,260 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  background-color: #f9f8f8;
+    background-color: #f9f8f8;
 }
+
 .container-new {
-  p,
-  li,
-  span {
-    font-size: 15px !important;
-  }
+    p {
+        text-align: justify;
+    }
 
-  footer {
-    background-color: #8d4b55;
-    height: 20px;
-    margin-top: 176px;
-  }
+    p,
+    li,
+    span {
+        font-size: 15px !important;
+    }
 
-  header {
-    background-color: #8d4b55;
-    padding: 30px 30px 20px 30px;
-    color: white;
-    display: flex;
-    align-items: center;
-    align-items: flex-start;
-    justify-content: space-between;
+    footer {
+        background-color: #8d4b55;
+        height: 20px;
+        margin-top: 91px;
+    }
 
-    .h-left {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-
-      .add {
+    header {
+        background-color: #8d4b55;
+        padding: 30px 30px 20px 30px;
+        color: white;
         display: flex;
-        font-weight: 500;
-        letter-spacing: 1px;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .h-left {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .add {
+                display: flex;
+                font-weight: 500;
+                letter-spacing: 1px;
+                align-items: center;
+                gap: 10px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    margin-top: -5px;
+                }
+            }
+        }
+
+        .h-right {
+            h1 {
+                font-size: 58px;
+                line-height: 58px;
+                margin-bottom: 10px;
+                margin-top: -10px;
+            }
+
+            h3 {
+                text-transform: uppercase;
+                color: #fddadf;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .body {
+        padding: 0 30px;
+        padding-top: 10px;
+        background-color: #f9f8f8;
+
+        .l-sec {
+            margin-bottom: 15px;
+
+            h4 {
+                font-weight: 700;
+                font-style: normal;
+                color: rgb(148, 38, 55);
+                border-bottom: 1px solid rgba(148, 38, 54, 0.836);
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+                letter-spacing: 0.7px;
+            }
+
+            ul {
+                margin-left: 25px;
+                font-size: 14px;
+            }
+        }
+
+        .education {
+            a {
+                margin-left: 10px;
+                color: rgb(148, 38, 55);
+                font-weight: bold;
+            }
+
+            li {
+                font-weight: 500;
+
+                span {
+                    font-weight: bold;
+                    color: rgba(0, 0, 0, 0.85);
+                }
+            }
+
+            p {
+                font-style: italic;
+            }
+
+            .score {
+                font-size: 12px;
+            }
+        }
+
+        .exp {
+            margin-bottom: 10px;
+
+            h4 {
+                font-weight: 700;
+                font-style: normal;
+                color: rgb(148, 38, 55);
+                border-bottom: 1px solid rgb(148, 38, 55);
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+                letter-spacing: 0.7px;
+            }
+
+            ul {
+                margin-bottom: 10px;
+
+                .ex-t {
+                    list-style-type: none;
+                    font-weight: bold;
+                    color: rgba(0, 0, 0, 0.85);
+
+                    .timing {
+                        float: right;
+                        font-weight: 400;
+                        font-size: 13px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+
+                    &.skills {
+                        font-weight: 500;
+                        font-size: 13px;
+                    }
+                }
+
+                .p-intro {
+                    font-size: 16px;
+                }
+
+                ul {
+                    margin-left: 25px;
+
+                    li {
+                        list-style-type: disc;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        .pro {
+            margin-bottom: 15px;
+
+            h4 {
+                font-weight: 700;
+                font-style: normal;
+                color: rgb(148, 38, 55);
+                border-bottom: 1px solid rgb(148, 38, 55);
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+                letter-spacing: 0.7px;
+            }
+
+            ul {
+                margin-bottom: 10px;
+
+                .ex-t {
+                    display: flex;
+                    justify-content: space-between;
+
+                    p {
+                        font-weight: bold;
+                        color: rgba(0, 0, 0, 0.85);
+
+                        a {
+                            margin-left: 6px;
+                            color: rgb(148, 38, 55);
+                        }
+                    }
+
+                    .timing {
+                        // float: right;
+                        font-weight: 400;
+                        font-size: 13px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+
+                    &.skills {
+                        font-weight: 500;
+                        font-size: 13px;
+                    }
+                }
+
+                .p-intro {
+                    font-size: 16px;
+                    text-align: justify;
+                }
+
+                ul {
+                    margin-left: 25px;
+
+                    li {
+                        list-style-type: disc;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+
+    .brown {
+        color: rgb(148, 38, 55);
+    }
+
+    .social {
+        display: none;
+        color: rgb(14, 13, 13);
+        // margin-top: 10px;
+        display: flex;
         align-items: center;
         gap: 10px;
 
-        a {
-          color: white;
-          text-decoration: none;
-          margin-top: -5px;
-        }
-      }
-    }
-
-    .h-right {
-      h1 {
-        font-size: 58px;
-        line-height: 58px;
-        margin-bottom: 10px;
-        margin-top: -10px;
-      }
-
-      h3 {
-        text-transform: uppercase;
-        color: #fddadf;
-        letter-spacing: 1px;
-      }
-    }
-  }
-
-  .body {
-    padding: 0 30px;
-    padding-top: 10px;
-    background-color: #f9f8f8;
-
-    .l-sec {
-      margin-bottom: 15px;
-
-      h4 {
-        font-weight: 700;
-        font-style: normal;
-        color: rgb(148, 38, 55);
-        border-bottom: 1px solid rgba(148, 38, 54, 0.836);
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-        letter-spacing: 0.7px;
-      }
-
-      ul {
-        margin-left: 25px;
-        font-size: 14px;
-      }
-    }
-
-    .education {
-      a {
-        margin-left: 10px;
-        color: rgb(148, 38, 55);
-        font-weight: bold;
-      }
-      li {
-        font-weight: 500;
-
-        span {
-          font-weight: bold;
-          color: rgba(0, 0, 0, 0.85);
-        }
-      }
-
-      p {
-        font-style: italic;
-      }
-
-      .score {
-        font-size: 12px;
-      }
-    }
-
-    .exp {
-      margin-bottom: 10px;
-
-      h4 {
-        font-weight: 700;
-        font-style: normal;
-        color: rgb(148, 38, 55);
-        border-bottom: 1px solid rgb(148, 38, 55);
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-        letter-spacing: 0.7px;
-      }
-
-      ul {
-        margin-bottom: 10px;
-
-        .ex-t {
-          list-style-type: none;
-          font-weight: bold;
-          color: rgba(0, 0, 0, 0.85);
-
-          .timing {
-            float: right;
-            font-weight: 400;
-            font-size: 13px;
-          }
-        }
-
-        p {
-          font-size: 14px;
-
-          &.skills {
-            font-weight: 500;
-            font-size: 13px;
-          }
-        }
-
-        .p-intro {
-          font-size: 16px;
-        }
-
-        ul {
-          margin-left: 25px;
-
-          li {
-            list-style-type: none;
-            text-align: justify;
-          }
-        }
-      }
-    }
-
-    .pro {
-      margin-bottom: 15px;
-
-      h4 {
-        font-weight: 700;
-        font-style: normal;
-        color: rgb(148, 38, 55);
-        border-bottom: 1px solid rgb(148, 38, 55);
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-        letter-spacing: 0.7px;
-      }
-
-      ul {
-        margin-bottom: 10px;
-
-        .ex-t {
-          display: flex;
-          justify-content: space-between;
-
-          p {
-            font-weight: bold;
-            color: rgba(0, 0, 0, 0.85);
+        .about-add {
+            display: flex;
+            align-items: center;
+            gap: 5px;
 
             a {
-              margin-left: 6px;
-              color: rgb(148, 38, 55);
+                color: rgb(3, 1, 1);
+                font-weight: 500;
+                text-decoration: none;
             }
-          }
-
-          .timing {
-            // float: right;
-            font-weight: 400;
-            font-size: 13px;
-          }
         }
-
-        p {
-          font-size: 14px;
-
-          &.skills {
-            font-weight: 500;
-            font-size: 13px;
-          }
-        }
-
-        .p-intro {
-          font-size: 16px;
-          text-align: justify;
-        }
-
-        ul {
-          margin-left: 25px;
-
-          li {
-            list-style-type: disc;
-            text-align: justify;
-          }
-        }
-      }
     }
-  }
-
-  .social {
-    display: none;
-    color: rgb(14, 13, 13);
-    // margin-top: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    .about-add {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-
-      a {
-        color: rgb(3, 1, 1);
-        font-weight: 500;
-        text-decoration: none;
-      }
-    }
-  }
 }
